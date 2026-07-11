@@ -1,66 +1,70 @@
-# 📦 Parcel - 取件码
+# 📦 Parcel - Pickup Code Tracker
 
 ---
 
-这是一个免费、开源、无广告、不联网，追求简洁的app，不收集任何个人信息。
+## About
 
-本app会自动解析收到的短信，并从中提取出地址和取件码信息，可以展示到桌面卡片上（支持暗色模式）。
+This is a free, open-source, ad-free, offline app that is committed to simplicity and does not collect any personal information.
 
-您可以添加自定义规则来改进解析效果。
+The app automatically parses received SMS messages and extracts delivery address and pickup code information, which can be displayed on desktop widgets (supports dark mode).
 
-✅ 支持淘宝身份码和拼多多身份码
+You can add custom rules to improve parsing accuracy.
 
-🔔 还支持监听第三方app通知，自动保存取件码消息，帮微信朋友取快递更方便了
+### Features
 
-⚡ 打开监听通知权限，还能实现后台进程保活，实时更新桌面卡片。
+✅ **Supports Taobao and Pinduoduo identity codes**
 
-🏷️ 支持地址归类，把多个地址加入同一地址标签，方便查看
+🔔 **Listens to third-party app notifications**, automatically saves pickup code messages, making it more convenient to receive packages for WeChat friends
 
-👴 支持老人模式，大字体，方便老年人使用
+⚡ **Enable notification listening permission** to keep the background process alive and update desktop widgets in real-time
 
-📱 桌面卡片添加：一般是藏在全部卡片-最底部的插件或者安卓小组件里面
+🏷️ **Supports address categorization** - Add multiple addresses to the same address group for easy viewing
 
- 欢迎下载和使用！有问题或建议请提issue。
+👴 **Senior-friendly mode** with large fonts for elderly users
+
+📱 **Desktop widget integration** - Usually found in all widgets at the bottom of the plugin or Android widget section
+
+Welcome to download and use! If you have any issues or suggestions, please open an issue.
 
 ---
 
-# 📲 下载 | Download
+# 📲 Download
 
-> 最新版本：v1.0.59
+> Latest Version: v1.0.59
 
-| 渠道 | 链接 |
-|------|------|
+| Channel | Link |
+|---------|------|
 | GitHub | [Android APK](https://github.com/shareven/parcel/releases/) |
 | F-Droid | [![](https://img.shields.io/f-droid/v/com.xxxx.parcel)](https://f-droid.org/packages/com.xxxx.parcel/) |
-| 下载统计 | ![](https://img.shields.io/github/downloads/shareven/parcel/total) |
+| Download Stats | ![](https://img.shields.io/github/downloads/shareven/parcel/total) |
 
 ---
 
-# ❓ 使用问题
+# ❓ FAQ & Troubleshooting
 
-1. **桌面卡片添加**
-   > 一般藏在全部卡片-最底部的插件或者安卓小组件里面
+1. **How to add a desktop widget**
+   > Usually hidden in "All widgets" section at the bottom of the plugin or Android widget area
 
-2. **下载困难**
-   > 如果github下载不了，请到微云下载 [https://share.weiyun.com/6NipcuLD](https://share.weiyun.com/6NipcuLD)
+2. **Download issues**
+   > If you can't download from GitHub, use WeiyunCloud: [https://share.weiyun.com/6NipcuLD](https://share.weiyun.com/6NipcuLD)
 
-3. **小米手机权限**
-   > 要打开通知类短信权限【权限管理→其他权限→通知类短信→始终允许】
+3. **Xiaomi phone permissions**
+   > Enable notification SMS permissions: **Settings → Permissions → Other permissions → Notification SMS → Always allow**
 
-4. **无法识别的短信**
-   > 如果发现有快递短信无法识别，并且是没有发送者号码的这种。这种短信目前识别不了：
-   > - 第一种办法：设置不接收这种短信。去短信设置里关闭 **[服务信息]** 或者 **[5G信息]** : 通过移动数据或者WLAN接收商家信息
-   > - 第二种办法：开启监听第三方app功能，设置并监听网络短信通知，自动保存通知里的取件码信息到自定义取件短信
+4. **SMS not being recognized**
+   > If you find delivery SMS that cannot be recognized, especially those without sender numbers, try these solutions:
+   > - **Option 1**: Disable these SMS in your settings. Go to SMS settings and turn off **[Service Information]** or **[5G Information]**: Receive merchant information via mobile data or WLAN
+   > - **Option 2**: Enable third-party app notification listening, set up and listen to network SMS notifications, and automatically save pickup code information from notifications to custom delivery SMS
 
-5. **桌面卡片不更新**
-   > 可能是后台进程被杀了，尝试打开监听通知权限，有助于实现后台进程保活，实时更新桌面卡片。在系统**自启动**里面添加app，在耗电管理里设置 **不限制应用的后台行为**，然后重新添加桌面卡片
+5. **Desktop widget not updating**
+   > The background process might have been killed. Try enabling notification listening permission to keep the background process alive and update the desktop widget in real-time. Add the app to **Startup** in system settings and configure battery management accordingly.
 
-6. **没有收到短信**
-   > 不发短信的话，可以复制取件码或短信，点击 **+号** 自动粘贴导入。或者找快递客服，让他把取件码通知方式改成短信通知
+6. **Not receiving SMS**
+   > If SMS is not being sent, you can copy the pickup code or SMS text, click the **+** button to auto-paste and import. Or contact your courier service to change the pickup code notification method to SMS.
 
 ---
 
-# 📱 App展示
+# 📱 App Preview
 
 <div align="center">
 
@@ -80,6 +84,6 @@
 
 <div align="center">
 
-**感谢使用！** 🙏
+**Thank you for using!** 🙏
 
 </div>
