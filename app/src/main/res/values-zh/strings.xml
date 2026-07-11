@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">取件码</string>
+
+    <!-- ============================================
+         TIME FILTER OPTIONS (HomeScreen)
+         ============================================ -->
+    <string name="filter_all">全部</string>
+    <string name="filter_today">今天</string>
+    <string name="filter_last_2_days">近2天</string>
+    <string name="filter_last_3_days">近3天</string>
+    <string name="filter_last_4_days">近4天</string>
+    <string name="filter_last_5_days">近5天</string>
+    <string name="filter_last_6_days">近6天</string>
+    <string name="filter_last_7_days">近7天</string>
+    <string name="filter_last_8_days">近8天</string>
+    <string name="filter_last_9_days">近9天</string>
+    <string name="filter_last_10_days">近10天</string>
+
+    <!-- ============================================
+         NAVIGATION & MENU ITEMS (HomeScreen)
+         ============================================ -->
+    <string name="nav_menu">菜单</string>
+    <string name="nav_back">返回</string>
+    <string name="nav_cancel">取消</string>
+
+    <!-- ============================================
+         MENU OPTIONS (HomeScreen Dropdown)
+         ============================================ -->
+    <string name="menu_prefer_locker_on">优先显示几号柜</string>
+    <string name="menu_prefer_locker_off">不优先显示几号柜</string>
+    <string name="menu_layout_vertical">切换为纵向地址</string>
+    <string name="menu_layout_horizontal">切换为横向地址</string>
+    <string name="menu_show_completed">显示已取件的码</string>
+    <string name="menu_hide_completed">隐藏已取件的码</string>
+    <string name="menu_show_time">显示时间</string>
+    <string name="menu_hide_time">隐藏时间</string>
+    <string name="menu_add_custom_sms">添加自定义取件短信</string>
+    <string name="menu_address_group">地址归类</string>
+    <string name="menu_rules">规则列表</string>
+    <string name="menu_logs">查看日志</string>
+    <string name="menu_notifications">监听第三方app通知</string>
+    <string name="menu_taobao_identity">淘宝身份码</string>
+    <string name="menu_pdd_identity">拼多多身份码</string>
+    <string name="menu_senior_mode_on">开启老人模式</string>
+    <string name="menu_senior_mode_off">关闭老人模式</string>
+    <string name="menu_about">关于</string>
+
+    <!-- ============================================
+         PERMISSIONS & SETTINGS
+         ============================================ -->
+    <string name="permission_sms">获取短信权限</string>
+    <string name="permission_notify_desc">自动识别复制内容是取件码还是短信</string>
+
+    <!-- ============================================
+         HOME SCREEN - EMPTY STATE
+         ============================================ -->
+    <string name="empty_no_codes">暂无取件码</string>
+    <string name="empty_add_button">添加自定义取件短信</string>
+    <string name="empty_hint">您可以手动添加取件短信或取件码</string>
+
+    <!-- ============================================
+         SMS PARSING & DISPLAY (SuccessSmsScreen)
+         ============================================ -->
+    <string name="label_address">地址: </string>
+    <string name="label_code">取件码: </string>
+    <string name="label_locker">号柜</string>
+    <string name="action_add_tag">添加地址标签</string>
+    <string name="action_add_rule">添加解析规则</string>
+    <string name="action_mark_picked">标记取件</string>
+    <string name="action_add_custom_code">添加自定义取件码</string>
+
+    <!-- ============================================
+         FAILED SMS SCREEN (FailSmsScreen)
+         ============================================ -->
+    <string name="fail_sms_title">解析失败%d条短信</string>
+
+    <!-- ============================================
+         RULES SCREEN (RulesScreen)
+         ============================================ -->
+    <string name="rules_title">规则列表</string>
+    <string name="rules_clear_all">清除所有规则</string>
+    <string name="rules_section_address">自定义地址规则</string>
+    <string name="rules_section_code">自定义取件码规则</string>
+    <string name="rules_section_ignore">不解析关键词</string>
+    <string name="rules_delete_tooltip">删除规则</string>
+
+    <!-- ============================================
+         ADD CUSTOM SMS SCREEN (AddCustomSmsScreen)
+         ============================================ -->
+    <string name="add_custom_sms_title">新增自定义取件短信</string>
+    <string name="add_custom_sms_desc">自动识别复制内容是取件码还是短信</string>
+    <string name="add_custom_sms_label">短信（可自动粘贴短信）</string>
+    <string name="add_custom_sms_hint">请输入短信</string>
+    <string name="add_custom_address_label">取件地址：</string>
+    <string name="add_custom_code_label">取件码（可自动粘贴取件码）</string>
+    <string name="add_custom_code_hint">请输入取件码</string>
+    <string name="add_custom_generated">生成的短信内容：</string>
+
+    <!-- ============================================
+         ADD RULE SCREEN (AddRuleScreen)
+         ============================================ -->
+    <string name="add_rule_title">新增规则</string>
+    <string name="add_rule_code_desc">复制短信中的 取件码 填入</string>
+    <string name="add_rule_address_desc">复制短信中的 地址 填入</string>
+    <string name="add_rule_ignore_desc">填入关键词，不解析短信</string>
+    <string name="add_rule_optional">选填</string>
+
+    <!-- ============================================
+         LOG SCREEN (LogScreen)
+         ============================================ -->
+    <string name="logs_title">日志</string>
+    <string name="logs_confirm_clear">确认清除</string>
+    <string name="logs_clear_message">确定要清除所有日志吗？此操作不可撤销。</string>
+    <string name="logs_confirm">确认</string>
+    <string name="logs_clear_all">清除全部</string>
+    <string name="logs_select_date">选择日期</string>
+    <string name="logs_show_all">显示全部</string>
+    <string name="logs_copy">复制</string>
+    <string name="logs_search">搜索日志...</string>
+    <string name="logs_empty">暂无日志</string>
+    <string name="logs_no_match">无匹配结果</string>
+    <string name="logs_copied">已复制</string>
+
+    <!-- ============================================
+         ABOUT SCREEN (AboutScreen)
+         ============================================ -->
+    <string name="about_title">关于</string>
+    <string name="about_source">开源地址</string>
+    <string name="about_version">版本：</string>
+    <string name="about_version_unknown">未知版本</string>
+    <string name="about_description">这是一个免费、开源、无广告、不联网，追求简洁的app，不收集任何个人信息。\n\n本app会自动解析收到的短信，并从中提取出地址和取件码信息，可以展示到桌面卡片上（支持暗色模式）。\n\n您可以添加自定义规则来改进解析效果。\n\n还支持监听第三方app通知，自动保存取件码消息，帮微信朋友取快递更方便了。\n\n打开监听通知权限，还能实现后台进程保活，实时更新桌面卡片。\n\n桌面卡片添加：一般是藏在全部卡片-最底部的插件或者安卓小组件里面\n\n欢迎下载和使用！有问题或建议请提issue！</string>
+
+    <!-- ============================================
+         NOTIFICATION SCREEN (UseNotificationScreen)
+         ============================================ -->
+    <string name="notification_grant_permission">去授权</string>
+    <string name="notification_battery_recommend">建议将耗电管理设置为不限制</string>
+    <string name="notification_go_settings">去设置</string>
+    <string name="notification_listen_apps">监听应用</string>
+    <string name="notification_sms_network">网络短信通知</string>
+    <string name="notification_sms_desc">当有短信读取不到时，自动保存所选短信App的通知内容到自定义短信</string>
+    <string name="notification_sms_not_selected">未选择短信应用</string>
+    <string name="notification_sms_listening">已监听：</string>
+    <string name="notification_sms_select">点击选择短信App</string>
+    <string name="notification_sms_none_detected">未检测到短信应用</string>
+
+    <!-- ============================================
+         ADDRESS GROUP SCREEN (AddressGroupScreen)
+         ============================================ -->
+    <string name="address_group_title">地址归类</string>
+    <string name="address_group_multi_select">多选</string>
+    <string name="address_group_merge">合并选中</string>
+    <string name="address_group_loading">加载中...</string>
+    <string name="address_group_categorized">已归类地址 (%d)</string>
+    <string name="address_group_load_error">加载地址列表失败</string>
+</resources>
