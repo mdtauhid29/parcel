@@ -1,3 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">取件码</string>
+    <!-- App Name -->
+    <string name="app_name">Parcel</string>
+
+    <!-- ============================================
+         TIME FILTER OPTIONS (HomeScreen)
+         ============================================ -->
+    <string name="filter_all">All</string>
+    <string name="filter_today">Today</string>
+    <string name="filter_last_2_days">Last 2 days</string>
+    <string name="filter_last_3_days">Last 3 days</string>
+    <string name="filter_last_4_days">Last 4 days</string>
+    <string name="filter_last_5_days">Last 5 days</string>
+    <string name="filter_last_6_days">Last 6 days</string>
+    <string name="filter_last_7_days">Last 7 days</string>
+    <string name="filter_last_8_days">Last 8 days</string>
+    <string name="filter_last_9_days">Last 9 days</string>
+    <string name="filter_last_10_days">Last 10 days</string>
+
+    <!-- ============================================
+         NAVIGATION & MENU ITEMS (HomeScreen)
+         ============================================ -->
+    <string name="nav_menu">Menu</string>
+    <string name="nav_back">Back</string>
+    <string name="nav_cancel">Cancel</string>
+
+    <!-- ============================================
+         MENU OPTIONS (HomeScreen Dropdown)
+         ============================================ -->
+    <string name="menu_prefer_locker_on">Prioritize locker number</string>
+    <string name="menu_prefer_locker_off">Don\'t prioritize locker number</string>
+    <string name="menu_layout_vertical">Switch to vertical layout</string>
+    <string name="menu_layout_horizontal">Switch to horizontal layout</string>
+    <string name="menu_show_completed">Show picked up codes</string>
+    <string name="menu_hide_completed">Hide picked up codes</string>
+    <string name="menu_show_time">Show time</string>
+    <string name="menu_hide_time">Hide time</string>
+    <string name="menu_add_custom_sms">Add custom delivery SMS</string>
+    <string name="menu_address_group">Address categorization</string>
+    <string name="menu_rules">Rules list</string>
+    <string name="menu_logs">View logs</string>
+    <string name="menu_notifications">Listen to 3rd-party notifications</string>
+    <string name="menu_taobao_identity">Taobao identity code</string>
+    <string name="menu_pdd_identity">Pinduoduo identity code</string>
+    <string name="menu_senior_mode_on">Enable senior mode</string>
+    <string name="menu_senior_mode_off">Disable senior mode</string>
+    <string name="menu_about">About</string>
+
+    <!-- ============================================
+         PERMISSIONS & SETTINGS
+         ============================================ -->
+    <string name="permission_sms">Get SMS permission</string>
+    <string name="permission_notify_desc">Auto-detect clipboard as code or SMS</string>
+
+    <!-- ============================================
+         HOME SCREEN - EMPTY STATE
+         ============================================ -->
+    <string name="empty_no_codes">No pickup codes</string>
+    <string name="empty_add_button">Add custom delivery SMS</string>
+    <string name="empty_hint">You can manually add delivery SMS or pickup codes</string>
+
+    <!-- ============================================
+         SMS PARSING & DISPLAY (SuccessSmsScreen)
+         ============================================ -->
+    <string name="label_address">Address: </string>
+    <string name="label_code">Pickup code: </string>
+    <string name="label_locker">locker</string>
+    <string name="action_add_tag">Add address tag</string>
+    <string name="action_add_rule">Add parsing rule</string>
+    <string name="action_mark_picked">Mark as picked up</string>
+    <string name="action_add_custom_code">Add custom pickup code</string>
+
+    <!-- ============================================
+         FAILED SMS SCREEN (FailSmsScreen)
+         ============================================ -->
+    <string name="fail_sms_title">Failed to parse %d SMS</string>
+
+    <!-- ============================================
+         RULES SCREEN (RulesScreen)
+         ============================================ -->
+    <string name="rules_title">Rules list</string>
+    <string name="rules_clear_all">Clear all rules</string>
+    <string name="rules_section_address">Custom address rules</string>
+    <string name="rules_section_code">Custom pickup code rules</string>
+    <string name="rules_section_ignore">Ignore keywords</string>
+    <string name="rules_delete_tooltip">Delete rule</string>
+
+    <!-- ============================================
+         ADD CUSTOM SMS SCREEN (AddCustomSmsScreen)
+         ============================================ -->
+    <string name="add_custom_sms_title">Add custom delivery SMS</string>
+    <string name="add_custom_sms_desc">Auto-detect clipboard as code or SMS</string>
+    <string name="add_custom_sms_label">SMS (auto-paste)</string>
+    <string name="add_custom_sms_hint">Enter SMS</string>
+    <string name="add_custom_address_label">Pickup address:</string>
+    <string name="add_custom_code_label">Pickup code (auto-paste)</string>
+    <string name="add_custom_code_hint">Enter pickup code</string>
+    <string name="add_custom_generated">Generated SMS:</string>
+
+    <!-- ============================================
+         ADD RULE SCREEN (AddRuleScreen)
+         ============================================ -->
+    <string name="add_rule_title">Add new rule</string>
+    <string name="add_rule_code_desc">Copy pickup code from SMS</string>
+    <string name="add_rule_address_desc">Copy address from SMS</string>
+    <string name="add_rule_ignore_desc">Enter keyword to ignore SMS</string>
+    <string name="add_rule_optional">Optional</string>
+
+    <!-- ============================================
+         LOG SCREEN (LogScreen)
+         ============================================ -->
+    <string name="logs_title">Logs</string>
+    <string name="logs_confirm_clear">Confirm clear</string>
+    <string name="logs_clear_message">Are you sure you want to clear all logs? This action cannot be undone.</string>
+    <string name="logs_confirm">Confirm</string>
+    <string name="logs_clear_all">Clear all</string>
+    <string name="logs_select_date">Select date</string>
+    <string name="logs_show_all">Show all</string>
+    <string name="logs_copy">Copy</string>
+    <string name="logs_search">Search logs...</string>
+    <string name="logs_empty">No logs</string>
+    <string name="logs_no_match">No matching results</string>
+    <string name="logs_copied">Copied</string>
+
+    <!-- ============================================
+         ABOUT SCREEN (AboutScreen)
+         ============================================ -->
+    <string name="about_title">About</string>
+    <string name="about_source">Open source</string>
+    <string name="about_version">Version: </string>
+    <string name="about_version_unknown">Unknown version</string>
+    <string name="about_description">This is a free, open-source, ad-free, offline app committed to simplicity and does not collect any personal information.\n\nThe app automatically parses received SMS messages and extracts delivery address and pickup code information, which can be displayed on desktop widgets (supports dark mode).\n\nYou can add custom rules to improve parsing accuracy.\n\nAlso supports listening to third-party app notifications and automatically saves pickup code messages, making it more convenient to receive packages for WeChat friends.\n\nEnable notification listening permission to keep the background process alive and update desktop widgets in real-time.\n\nDesktop widget integration: Usually found in all widgets at the bottom of the plugin or Android widget section.\n\nWelcome to download and use! If you have any issues or suggestions, please open an issue!</string>
+
+    <!-- ============================================
+         NOTIFICATION SCREEN (UseNotificationScreen)
+         ============================================ -->
+    <string name="notification_grant_permission">Grant permission</string>
+    <string name="notification_battery_recommend">Recommend battery optimization: unrestricted</string>
+    <string name="notification_go_settings">Go to settings</string>
+    <string name="notification_listen_apps">Listen to apps</string>
+    <string name="notification_sms_network">Network SMS notification</string>
+    <string name="notification_sms_desc">Auto-save unread SMS notifications to custom SMS</string>
+    <string name="notification_sms_not_selected">No SMS app selected</string>
+    <string name="notification_sms_listening">Listening: </string>
+    <string name="notification_sms_select">Select SMS app</string>
+    <string name="notification_sms_none_detected">No SMS app detected</string>
+
+    <!-- ============================================
+         ADDRESS GROUP SCREEN (AddressGroupScreen)
+         ============================================ -->
+    <string name="address_group_title">Address categorization</string>
+    <string name="address_group_multi_select">Multi-select</string>
+    <string name="address_group_merge">Merge selected</string>
+    <string name="address_group_loading">Loading...</string>
+    <string name="address_group_categorized">Categorized addresses (%d)</string>
+    <string name="address_group_load_error">Failed to load addresses</string>
 </resources>
